@@ -2,8 +2,8 @@
 
 ### Print do aplicativo original:
 
-![print-original](/assets/print-original.png)
+![print-original](/assets/printOriginal.png)
 
 ### Print do aplicativo clonado:
 
-![print-clone](/assets/print-clone.png)
+![print-clone](/assets/printClone.png)

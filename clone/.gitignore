@@ -12,3 +12,5 @@ web-build/
 
 # macOS
 .DS_Store
+clone/assets/print-clone.png
+clone/assets/print-original.png
