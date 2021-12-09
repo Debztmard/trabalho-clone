@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { View, Image, TextInput } from "react-native";
 import { styles } from "./styles";
+import Ionicons from "react-native-vector-icons/Ionicons";
 import logoNet from "../../../assets/logoNet.png";
 import Cep from "../../components/Cep";
 import banner from "../../../assets/banner.png";
@@ -19,6 +20,8 @@ export default function Home() {
     <>
       <View style={styles.topo}>
         <Image source={logoNet} style={styles.logo} />
+        <View style={styles.search} >
+        <Ionicons name="search" style={styles.searchIcon} size={28} />
         <TextInput
           style={styles.input}
           value={text}
@@ -26,13 +29,17 @@ export default function Home() {
           placeholder="Buscar por"
           placeholderTextColor="#d2bcdb"
         />
+        </View>
         <Cep />
       </View>
       <Image source={banner} style={styles.banner} resizeMode="contain" />
       <View style={styles.marcas}>
-        <Image source={olympikus} resizeMode="center" />
+        <Image source={olympikus} resizeMode="center"/>
+        <View style={styles.linhaMarca}/>
         <Image source={nike} resizeMode="center" />
+        <View style={styles.linhaMarca}/>
         <Image source={basics} resizeMode="center" />
+        <View style={styles.linhaMarca}/>
       </View>
       <View style={styles.produtos}>
         <Image source={bola} resizeMode="center" style={styles.imagens} />

@@ -15,13 +15,24 @@ export const styles = StyleSheet.create({
     paddingHorizontal: 100,
     marginBottom: 10,
   },
+  search:{
+    flexDirection: "row",
+  },
+  searchIcon:{
+    height: 37.5,
+    color: "#d2bcdb",
+    backgroundColor: "#816b94",
+    marginLeft: 10,
+    paddingVertical: 4,
+    paddingLeft: 4,
+  },
   input: {
     height: null,
-    width: null,
+    width: "88%",
     marginBottom: 15,
     padding: 5,
     backgroundColor: "#816b94",
-    marginHorizontal: 10,
+    
   },
   banner: {
     height: "21%",
@@ -34,8 +45,14 @@ export const styles = StyleSheet.create({
     flexDirection: "row",
     backgroundColor: "#ffffff",
     justifyContent: "space-around",
-    borderRightWidth: 1,
-    borderRightColor: "black",
+    
+  },
+  linhaMarca:{
+    height: "100%",
+    width: 2,
+    backgroundColor: "#b5b5b5",
+    marginTop: 5,
+    marginRight: 5,
   },
   produtos: {
     flex: 3,
